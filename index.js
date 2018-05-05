@@ -19,7 +19,7 @@ class Route{
     let blocks = 0;
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
 
-    blocks += eastWest.indexOf(this.beginningLocation.horizontal)
+    blocks += (eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal)
 
     return blocks;
   };

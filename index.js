@@ -25,5 +25,10 @@ class Route{
   };
   estimatedTime(peakTime){
     let blocks = this.blocksTravelled();
+    if (peakTime === true){
+      return blocks/2
+    } else {
+      return blocks/3
+    }
   }
 }

@@ -16,6 +16,7 @@ class Route{
   }
 
   blocksTravelled(){
-    return this.beginningLocation - this.endingLocation;
+    let blocks = 0;
+    let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
   }
 }

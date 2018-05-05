@@ -23,7 +23,7 @@ class Route{
     blocks += (this.endingLocation.vertical - this.beginningLocation.vertical);
     return blocks;
   };
-  estimatedTime(){
-
+  estimatedTime(peakTime){
+    let blocks = this.blocksTravelled();
   }
 }

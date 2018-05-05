@@ -23,4 +23,7 @@ class Route{
     blocks += (this.endingLocation.vertical - this.beginningLocation.vertical);
     return blocks;
   };
+  estimatedTime(){
+
+  }
 }
